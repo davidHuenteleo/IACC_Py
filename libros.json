@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "Hola",
+        "genero": "Masculino",
+        "anio": "2019",
+        "autor": "David"
+    },
+    {
+        "titulo": "Hola",
+        "genero": "Hola",
+        "anio": "Hola",
+        "autor": "Hol"
+    },
+    {
+        "titulo": "hola",
+        "genero": "holy",
+        "anio": "dklo",
+        "autor": "dvid"
+    },
+    {
+        "titulo": "Minimalismo",
+        "genero": "Autoayuda",
+        "anio": "2011",
+        "autor": "David"
+    }
+]
