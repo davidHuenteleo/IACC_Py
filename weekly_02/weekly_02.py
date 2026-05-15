@@ -6,7 +6,7 @@ def ejecutar_programa():
     while True:
 
         #Bienvenida
-        print("\n Bienvenido a Software MyPro, revisa nuestras opciones")
+        print("Bienvenido a Software MyPro, revisa nuestras opciones")
 
         #Opciones
         print("1. Calcula el descuento por compra de licencia")

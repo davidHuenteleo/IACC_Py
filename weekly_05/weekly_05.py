@@ -40,7 +40,7 @@ def mostrar_reporte_empleado(nombre, edad, salario, fecha_ingreso):
 
     #resultado final
     print("\n" + "="*30)
-    print("REPORTE DE EMPLEADO")
+    print("--- Reporte del Empleado --")
     print("="*30)
 
     print(f"Empleado: {nombre}")

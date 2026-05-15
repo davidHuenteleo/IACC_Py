@@ -8,11 +8,11 @@ def frescura_natural():
 
         #usamos la excepcion try-except para controlar posibles errores de datos
         try:
-            #1. Entrada de datos
+            #Entrada de datos
             existencia = int(input("Ingresa la cantidad actual de productos existentes: "))
             vendidos = int(input("Ingresa la cantidad de productos vendidos el dia de hoy: "))
 
-            #2. Validacion de error
+            #Validacion de error
             if existencia < 0 or vendidos < 0:
                 print("\n[ERROR] Las cantidades no pueden ser negativas. Inténtelo de nuevo.\n")
 
@@ -29,17 +29,17 @@ def frescura_natural():
             stock_final = existencia - vendidos
             
             print("\n" + "="*30)
-            print("✅ Registro Exitoso")
-            print(f"📦 Ventas del día: {vendidos}")
-            print(f"📦 Stock disponible para mañana: {stock_final}")
+            print("Registro Exitoso")
+            print(f"Ventas del día: {vendidos}")
+            print(f"Stock disponible para mañana: {stock_final}")
             
-            # --- Aquí van las recomendaciones de textos adicionales ---
+            #Aquí van las recomendaciones de textos adicionales
             if stock_final == 0:
-                print("⚠️  [ALERTA CRÍTICA] ¡Te has quedado sin stock de este producto!")
+                print("[ALERTA CRÍTICA] ¡Te has quedado sin stock de este producto!")
             elif stock_final < 10:
-                print("⚠️  [AVISO] El stock está bajo. Te recomendamos solicitar más productos a la brevedad.")
+                print("[AVISO] El stock está bajo. Te recomendamos solicitar más productos a la brevedad.")
             else:
-                print("✅ [ESTADO] Tienes suficiente stock para operar mañana.")
+                print("[ESTADO] Tienes suficiente stock para operar mañana.")
                 
             print("="*30)
 

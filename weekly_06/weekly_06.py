@@ -82,7 +82,7 @@ def agregar_autor():
 def mostrar_informacion():
 
     print("\n========================================")
-    print("      INFORMACIÓN ALMACENADA")
+    print("      INFORMACIÓN ALMACENADA     ")
     print("========================================")
 
     #Cargar datos
@@ -102,7 +102,7 @@ def mostrar_informacion():
     else:
         print(json.dumps(autores, indent=4, ensure_ascii=False))
     
-    print("============================\n")
+    print("--------------------------\n")
 
 
 def menu():
@@ -140,7 +140,7 @@ def menu():
         else:
             print("Opcion no valida. Intente de nuevo.")
 
-
+#Ejecuta el programa
 if __name__ == "__main__":
     menu()
 
